@@ -7,6 +7,10 @@
   {{ super() }}
   {{ css }}
 {% endblock %}
+{% block headers %}
+  {{ super() }}
+  {{ header }}
+{% endblock %}
 {% block content %}
   {{ app_entry }}
 {% endblock %}

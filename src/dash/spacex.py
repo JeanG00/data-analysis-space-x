@@ -103,7 +103,7 @@ def init(server):
                 x="Payload Mass (kg)",
                 y="class",
                 color="Booster Version Category",
-                title="Correlation between Payload and Success for all sites")
+                title=f"Correlation between Payload[{slide_min}, {slide_max}] and Success for all sites")
             return fig
         else:
             df = filtered_df[filtered_df['Launch Site'] == entered_site]

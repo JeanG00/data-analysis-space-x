@@ -26,9 +26,9 @@
   {% endblock %}
 
   <title>{% block title %}dash_spacex{% endblock %}</title>
+  {% block headers %}{% endblock %}
 </head>
 <body>
-
 {% include 'components/nav.html' %}
 <div id="main">
   {% block content %}

@@ -31,7 +31,7 @@ def create_app(conf_name):
     from .routes import init
     init(app)
 
-    # embeded dash init
+    # routes: dash init
     from .dash import spacex
     spacex.init(app)
 

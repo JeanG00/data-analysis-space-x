@@ -17,6 +17,9 @@ DATA_ANALYSIS_SPACE_X
     |-- apply_4_SQL.ipynb
     |-- apply_4B_SpaceX_MLP.ipynb
 `-- src
+    |-- controllers
+    |   `-- __init__.py
+    |   `-- home.py
     |-- dash
     |   `-- spacex.py
     |-- middlewares
